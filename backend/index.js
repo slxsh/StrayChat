@@ -9,7 +9,7 @@ const path = require('path')
 app.use(express.static(path.join(__dirname, 'build')))
 
 // Redis Connection
-const client = new redis.createClient(process.env.REDIS_URL) // default = localhost
+const client = new redis.createClient() // default = localhost
 client.on('connect', () => {
     console.log('Connected to Redis.')
 })
@@ -114,4 +114,4 @@ io.on('connection', (socket) => {
     })
 })
 
-server.listen(process.env.PORT, () => console.log('Server has started'))
+server.listen(4000, () => console.log('Server has started'))
