@@ -82,7 +82,7 @@ class Chat extends React.Component {
     }
 
     componentDidMount() {
-        this.socket = io.connect('https://stray-chat.herokuapp.com/')
+        this.socket = io.connect('http//:localhost:4000')
         this.socket.on('found', () => this.userFound())
         this.socket.on('message', (data) => {
             this.setTyping(false)
