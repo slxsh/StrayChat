@@ -1,0 +1,22 @@
+#btn {
+    background: rgb(29,251,136);
+    background: linear-gradient(90deg, rgba(29,251,136,1) 0%, rgba(103,155,255,1) 100%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+#btn-text {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    transform: translate3d(0px, -2px, 0px);
+    -webkit-box-shadow: 0px 7px 19px -9px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 7px 19px -9px rgba(0,0,0,1);
+    box-shadow: 0px 7px 19px -9px rgba(0,0,0,1);
+}
