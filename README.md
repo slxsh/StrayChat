@@ -1,5 +1,5 @@
 # StrayChat
-<a href="https://stray-chat.herokuapp.com">Live Here</a>
+<a href="https://straychat.social">https://straychat.social</a>
 
 ## About
 Straychat lets you connect and chat with random individuals. Chats are anonymous i.e. you don't need to create an account or provide any details. Compatible with both web and mobile screens.
